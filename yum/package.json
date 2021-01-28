@@ -1,0 +1,17 @@
+{
+  "name": "yum",
+  "version": "1.0.0",
+  "description": "YUM! Cookies!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:seed": "node ./db/seed.js"
+  },
+  "author": "GA DC",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.5.2"
+  }
+}
